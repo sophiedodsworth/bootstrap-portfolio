@@ -14,7 +14,7 @@
 <body>
 
     <header>
-        <section class="hero">
+        <section id="home" class="hero">
             <div class="jumbotron">
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
                     <a class="navbar-brand" href="#"></a>
@@ -27,76 +27,87 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mr-auto">
                             <li class="nav-item active">
-                                <a class="nav-link" href="#">About<span class="sr-only"></span></a>
+                                <a class="nav-link" href="#about">Home<span class="sr-only"></span></a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Skills</a>
-                            </li>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
-                        </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Projects
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="#">Horiseon code refactor</a>
-                                    <a class="dropdown-item" href="#">Prework study guide</a>
+                                    <a class="dropdown-item" href="#projects">All projects</a>
+                                    <a class="dropdown-item" href="#projects">Horiseon code refactor</a>
+                                    <a class="dropdown-item" href="#projects">Prework study guide</a>
                                 </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#skills">Skills</a>
+                            </li>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#skills">Contact</a>
                             </li>
                         </ul>
                     </div>
                 </nav>
                 <h1 class="display-4">Sophie Dodsworth</h1>
-                <p class="lead">Front-end developer.</p>
+                <p class="lead">Front-end developer</p>
                 <hr class="my-4">
                 <p>Hi! I'm Sophie. I'm a full-time marketing professional and current front-end
-                    developer student. At the end of my bootcamp in March 2023 I intend to take on clients for
-                    freelance work. This portfolio is for clients to see my previous projects and for them to
-                    find how to contact me. Outside of my work in marketing and attending bootcamp I also have a
-                    YouTube channel where I create lifestyle and tech content.</p>
+                    developer student. Welcome to my portfolio.</p>
+                <img src="../images/profile-photo.jpg">
             </div>
         </section>
     </header>
 
     <main>
         <!-- work section -->
-        <section class="container-fluid">
+        <h1 class="display-5">Projects</h1>
+        <section id="projects" class="container-fluid">
             <div class="row">
-                <div class="card-container col-sm-12 col-md-12 col-lg-6">
-                    <div class="card" style="width: 18rem;">
-                        <img src="images/blue-pattern.jpg" class="card-img-top" alt="...">
+                <div class="card-container col-sm-12 col-md-12 col-lg-3">
+                    <div class="card" style="width: 22rem; height: 40rem;">
+                        <img src="images/blue-pattern.jpg" class="card-img-top">
                         <div class="card-body">
-                            <p class="card-text">Card test 1</p>
+                            <H3>Horiseon code refactor</H3>
+                            <p class="card-text">This is a refactor of the Horiseon website. This project was built so
+                                that that the Horiseon website follows accessibility standards so that people with
+                                diabilities can access the website using assistive technology. Another motivation behind
+                                this project was to ensure that the website is optimised for search engines like Google.
+                            </p>
                         </div>
                     </div>
                 </div>
 
-                <div class="card-container col-sm-12 col-md-12 col-lg-6">
-                    <div class="card" style="width: 18rem;">
-                        <img src="images/blue-pattern.jpg" class="card-img-top" alt="...">
+                <div class="card-container col-sm-12 col-md-12 col-lg-3">
+                    <div class="card" style="width: 22rem; height: 40rem;">
+                        <img src="images/blue-pattern.jpg" class="card-img-top">
                         <div class="card-body">
-                            <p class="card-text">Card test 2</p>
+                            <H3>Prework study guide</H3>
+                            <p class="card-text">The motivation behind the Prework Study Guide was to make it easier for
+                                boot camp students to keep track of information they are learning. By creating a website
+                                that holds notes taken during prework, students will have all their notes in one place.
+                                By creating this project I learnt the basics of HTML, CSS, JavaScript and Git.</p>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="card-container col-sm-12 col-md-12 col-lg-6">
-                            <div class="card" style="width: 18rem;">
-                                <img src="images/blue-pattern.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <p class="card-text">Card test 3</p>
-                                </div>
-                            </div>
+                </div>
+
+                <div class="card-container col-sm-12 col-md-12 col-lg-3">
+                    <div class="card" style="width: 22rem; height: 40rem;">
+                        <img src="images/blue-pattern.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <H3>Coming soon</H3>
+                            <p class="card-text">Coming soon</p>
                         </div>
-                        <div class="card-container col-sm-12 col-md-12 col-lg-6">
-                            <div class="card" style="width: 18rem;">
-                                <img src="images/blue-pattern.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <p class="card-text">Card test 4</p>
-                                </div>
-                            </div>
+                    </div>
+                </div>
+
+                <div class="card-container col-sm-12 col-md-12 col-lg-3">
+                    <div class="card" style="width: 22rem; height: 40rem;">
+                        <img src="images/blue-pattern.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <H3>Coming soon</H3>
+                            <p class="card-text">Coming soon</p>
                         </div>
                     </div>
                 </div>
@@ -105,11 +116,11 @@
 
         <!-- skills section -->
 
-        <section class="container-fluid">
+        <section id="skills" class="container-fluid">
             <div class="row">
                 <div class="container col-sm-12 col-md-12 col-lg-4">
                     <ul class="list-group list-group-flush">
-                        <h1 class="display-4">Skills</h1>
+                        <h1 class="display-5">Skills</h1>
                         <li class="list-group-item">HTML</li>
                         <li class="list-group-item">CSS</li>
                         <li class="list-group-item">JavaScript</li>
@@ -119,11 +130,13 @@
                 </div>
                 <!-- about me / contact section -->
                 <div class="container col-sm-12 col-md-12 col-lg-8">
-                    <div class="jumbotron">
-                        <h1 class="display-4">Contact me</h1>
-                        <p class="lead">If you'd like to get in touch, please contact me on sndodsworth@gmail.com.</p>
-                        </p>
-                    </div>
+                    <h1 class="display-5">Contact me</h1>
+                    <p class="lead">At the end of my bootcamp in March 2023 I intend to take on clients for
+                        freelance work. This portfolio is for clients to see my previous projects and for them to
+                        find how to contact me. Outside of my work in marketing and attending bootcamp I also have a
+                        YouTube channel where I create lifestyle and tech content. If you'd like to get in touch, please
+                        contact me on sndodsworth@gmail.com.</p>
+                    </p>
                 </div>
             </div>
         </section>
@@ -133,7 +146,7 @@
     <footer>
         <ul class="nav nav-pills nav-fill">
             <li class="nav-item">
-                <a class="nav-link active" href="#">Twitter</a>
+                <a class="nav-link" href="#">Twitter</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">Instagram</a>
