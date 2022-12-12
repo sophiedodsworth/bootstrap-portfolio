@@ -116,13 +116,13 @@ form {
 .btn-primary {
   background-color: #043444;
   cursor: pointer;
-  -webkit-box-shadow: 0 1px 4px rgb(4, 52, 68), 0 0 20px rgb(4, 52, 68);
-  -moz-box-shadow: 0 1px 4px rgb(4, 52, 68), 0 0 20px rgb(4, 52, 68);
-  box-shadow: 0 1px 4px rgb(4, 52, 68), 0 0px 20px rgb(4, 52, 68);
   border: 1px solid rgb(4, 52, 68)
 }
 
 .btn-primary:hover {
-  background-color: #d9dcd6;
+  background-color: #043444;
   border: none;
+  -webkit-box-shadow: 0 1px 4px rgb(4, 52, 68), 0 0 20px rgb(4, 52, 68);
+  -moz-box-shadow: 0 1px 4px rgb(4, 52, 68), 0 0 20px rgb(4, 52, 68);
+  box-shadow: 0 1px 4px rgb(4, 52, 68), 0 0px 20px rgb(4, 52, 68);
 }
