@@ -1,61 +1,108 @@
 body {
-    background-color: #d9dcd6;
+  background-color: #d9dcd6;
+}
+
+.jumbotron {
+  height: 350px;
+}
+
+.media {
+  margin: 20px 20px 20px 20px;
+}
+
+.card-img-top {
+  object-fit: cover
+}
+
+.projectCard {
+  margin-bottom: 10px;
+}
+
+#projects,
+#skills,
+#about,
+#contact,
+#formcontainer {
+  margin-bottom: 30px;
+}
+
+.GHlink {
+  text-decoration: none;
+  color: black
+}
+
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+#subHeading {
+  margin-bottom: 20px;
+}
+
+#social {
+  margin-top: 25px;
+  margin-bottom: 30px;
 }
 
 .fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 75px;
-    text-align: center;
-    text-decoration: none;
-  }
-  
-  .fa:hover {
-    opacity: 0.7;
-  }
+  padding: 20px;
+  font-size: 30px;
+  width: 75px;
+  text-align: center;
+  text-decoration: none;
+}
 
-  .fa-linkedin {
-    background: #007bb5;
-    color: white;
-  }
+.fa:hover {
+  opacity: 0.7;
+}
 
-  .fa-twitter {
-    background: #55ACEE;
-    color: white;
-  }
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+  margin: 5px 5px 5px 5px;
+}
 
-  .fa-youtube {
-    background: #bb0000;
-    color: white;
-  }
-  
-  .fa-instagram {
-    background: #125688;
-    color: white;
-  }
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  margin: 5px 5px 5px 5px;
+}
 
-  #formcontainer {
-    background: url("../images/blue-pattern.jpg");
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 350px;
-  }
-  
-  form {
-    width: 500px;
-    margin: 35px auto;
-    padding: 45px;
-    border: 1px solid #f2f2f2;
-    background-color: white;
-  }
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+  margin: 5px 5px 5px 5px;
+}
 
-  .btn-primary {
-    cursor: pointer;
-    -webkit-box-shadow: 0 1px 4px rgb(230,190,138), 0 0 20px rgb(230,190,138);
-    -moz-box-shadow: 0 1px 4px rgb(230,190,138), 0 0 20px rgb(230,190,138);
-    box-shadow: 0 12px 16px rgb(230,190,138), 0 17px 20px rgb(230,190,138);
-  }
+.fa-instagram {
+  background: #125688;
+  color: white;
+  margin: 5px 5px 5px 5px;
+}
+
+#formcontainer {
+  background: url("../images/blue-pattern.jpg");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 350px;
+}
+
+form {
+  width: 500px;
+  margin: 35px auto;
+  padding: 45px;
+  border: 1px solid #f2f2f2;
+  background-color: white;
+}
+
+.btn-primary {
+  cursor: pointer;
+  -webkit-box-shadow: 0 1px 4px rgb(230, 190, 138), 0 0 20px rgb(230, 190, 138);
+  -moz-box-shadow: 0 1px 4px rgb(230, 190, 138), 0 0 20px rgb(230, 190, 138);
+  box-shadow: 0 12px 16px rgb(230, 190, 138), 0 17px 20px rgb(230, 190, 138);
+}
