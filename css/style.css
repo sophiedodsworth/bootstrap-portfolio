@@ -2,16 +2,29 @@ body {
   background-color: #d9dcd6;
 }
 
-.jumbotron {
-  height: 350px;
-}
-
 .media {
   margin: 20px 20px 20px 20px;
 }
 
+.jumbotron {
+  padding: 0px;
+}
+
+#introduction {
+  margin: 40px 40px 40px 0px;
+}
+
+#introtext {
+  padding-left: 40px;
+}
+
+#profile {
+  padding-left: 20px;
+  margin-bottom: 40px;
+}
+
 .card-img-top {
-  object-fit: cover
+  object-fit: cover;
 }
 
 .projectCard {
@@ -101,8 +114,15 @@ form {
 }
 
 .btn-primary {
+  background-color: #043444;
   cursor: pointer;
-  -webkit-box-shadow: 0 1px 4px rgb(230, 190, 138), 0 0 20px rgb(230, 190, 138);
-  -moz-box-shadow: 0 1px 4px rgb(230, 190, 138), 0 0 20px rgb(230, 190, 138);
-  box-shadow: 0 12px 16px rgb(230, 190, 138), 0 17px 20px rgb(230, 190, 138);
+  -webkit-box-shadow: 0 1px 4px rgb(4, 52, 68), 0 0 20px rgb(4, 52, 68);
+  -moz-box-shadow: 0 1px 4px rgb(4, 52, 68), 0 0 20px rgb(4, 52, 68);
+  box-shadow: 0 1px 4px rgb(4, 52, 68), 0 0px 20px rgb(4, 52, 68);
+  border: 1px solid rgb(4, 52, 68)
+}
+
+.btn-primary:hover {
+  background-color: #d9dcd6;
+  border: none;
 }
